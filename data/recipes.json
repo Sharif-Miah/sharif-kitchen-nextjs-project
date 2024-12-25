@@ -10,7 +10,7 @@
         "published_date": "2024-09-01",
         "cooking_time": "35 minutes",
         "author": "Mia Cooper",
-        "thumbnail": "thumb-6.jpg"
+        "thumbnail": "/thumb-6.jpg"
     },
     {
         "rating": {
@@ -23,7 +23,7 @@
         "published_date": "2024-07-24",
         "cooking_time": "50 minutes",
         "author": "Emma Moore",
-        "thumbnail": "thumb-10.jpg"
+        "thumbnail": "/thumb-10.jpg"
     },
     {
         "rating": {
@@ -36,7 +36,7 @@
         "published_date": "2024-06-22",
         "cooking_time": "10 minutes",
         "author": "Lucas Baker",
-        "thumbnail": "thumb-5.jpg"
+        "thumbnail": "/thumb-5.jpg"
     },
     {
         "rating": {
@@ -49,7 +49,7 @@
         "published_date": "2024-08-05",
         "cooking_time": "20 minutes",
         "author": "Grace Adams",
-        "thumbnail": "thumb-14.jpg"
+        "thumbnail": "/thumb-14.jpg"
     },
     {
         "rating": {
@@ -62,7 +62,7 @@
         "published_date": "2024-07-13",
         "cooking_time": "15 minutes",
         "author": "Chloe Bennett",
-        "thumbnail": "thumb-3.jpg"
+        "thumbnail": "/thumb-3.jpg"
     },
     {
         "rating": {
@@ -75,7 +75,7 @@
         "published_date": "2024-05-18",
         "cooking_time": "15 minutes",
         "author": "Ethan Clark",
-        "thumbnail": "thumb-2.jpg"
+        "thumbnail": "/thumb-2.jpg"
     },
     {
         "rating": {
@@ -88,7 +88,7 @@
         "published_date": "2024-04-28",
         "cooking_time": "25 minutes",
         "author": "David Hernandez",
-        "thumbnail": "thumb-1.jpg"
+        "thumbnail": "/thumb-1.jpg"
     },
     {
         "rating": {
@@ -101,7 +101,7 @@
         "published_date": "2024-09-10",
         "cooking_time": "45 minutes",
         "author": "Zoe Foster",
-        "thumbnail": "thumb-6.jpg"
+        "thumbnail": "/thumb-6.jpg"
     },
     {
         "rating": {
@@ -114,7 +114,7 @@
         "published_date": "2024-06-02",
         "cooking_time": "15 minutes",
         "author": "Ella Martin",
-        "thumbnail": "thumb-13.jpg"
+        "thumbnail": "/thumb-13.jpg"
     },
     {
         "rating": {
@@ -127,7 +127,7 @@
         "published_date": "2024-05-14",
         "cooking_time": "30 minutes",
         "author": "Ryan Brooks",
-        "thumbnail": "thumb-7.jpg"
+        "thumbnail": "/thumb-7.jpg"
     },
     {
         "rating": {
@@ -140,7 +140,7 @@
         "published_date": "2024-02-16",
         "cooking_time": "25 minutes",
         "author": "Sophia Williams",
-        "thumbnail": "thumb-4.jpg"
+        "thumbnail": "/thumb-4.jpg"
     },
     {
         "rating": {
@@ -153,7 +153,7 @@
         "published_date": "2024-04-02",
         "cooking_time": "30 minutes",
         "author": "John Carter",
-        "thumbnail": "thumb-12.jpg"
+        "thumbnail": "/thumb-12.jpg"
     },
     {
         "rating": {
@@ -166,7 +166,7 @@
         "published_date": "2024-03-10",
         "cooking_time": "20 minutes",
         "author": "Emily Stone",
-        "thumbnail": "thumb-7.jpg"
+        "thumbnail": "/thumb-7.jpg"
     },
     {
         "rating": {
@@ -179,7 +179,7 @@
         "published_date": "2024-05-08",
         "cooking_time": "45 minutes",
         "author": "James Martinez",
-        "thumbnail": "thumb-11.jpg"
+        "thumbnail": "/thumb-11.jpg"
     },
     {
         "rating": {
@@ -192,7 +192,7 @@
         "published_date": "2024-06-15",
         "cooking_time": "35 minutes",
         "author": "Lily Thompson",
-        "thumbnail": "thumb-9.jpg"
+        "thumbnail": "/thumb-9.jpg"
     },
     {
         "rating": {
@@ -205,7 +205,7 @@
         "published_date": "2024-01-25",
         "cooking_time": "40 minutes",
         "author": "Jacob Brooks",
-        "thumbnail": "thumb-13.jpg"
+        "thumbnail": "/thumb-13.jpg"
     },
     {
         "rating": {
@@ -218,7 +218,7 @@
         "published_date": "2024-03-05",
         "cooking_time": "50 minutes",
         "author": "Ella Johnson",
-        "thumbnail": "thumb-8.jpg"
+        "thumbnail": "/thumb-8.jpg"
     },
     {
         "rating": {
@@ -231,7 +231,7 @@
         "published_date": "2024-07-10",
         "cooking_time": "60 minutes",
         "author": "Isabella Green",
-        "thumbnail": "thumb-2.jpg"
+        "thumbnail": "/thumb-2.jpg"
     },
     {
         "rating": {
@@ -244,7 +244,7 @@
         "published_date": "2024-08-20",
         "cooking_time": "90 minutes",
         "author": "Oliver Davis",
-        "thumbnail": "thumb-14.jpg"
+        "thumbnail": "/thumb-14.jpg"
     },
     {
         "rating": {
@@ -257,7 +257,7 @@
         "published_date": "2024-05-30",
         "cooking_time": "25 minutes",
         "author": "Daniel Smith",
-        "thumbnail": "thumb-3.jpg"
+        "thumbnail": "/thumb-3.jpg"
     },
     {
         "rating": {
@@ -269,7 +269,7 @@
         "title": "Southern-Style Crispy Fried Chicken",
         "published_date": "2023-07-15",
         "cooking_time": "1 hour 30 minutes",
-        "thumbnail": "thumb-14.jpg",
+        "thumbnail": "/thumb-14.jpg",
         "author": "Emily Johnson"
     },
     {
@@ -282,7 +282,7 @@
         "title": "Decadent Chocolate Lava Cake",
         "published_date": "2024-02-03",
         "cooking_time": "25 minutes",
-        "thumbnail": "thumb-12.jpg",
+        "thumbnail": "/thumb-12.jpg",
         "author": "Michael Chang"
     },
     {
@@ -295,7 +295,7 @@
         "title": "Mediterranean Quinoa Salad",
         "published_date": "2023-11-20",
         "cooking_time": "30 minutes",
-        "thumbnail": "thumb-12.jpg",
+        "thumbnail": "/thumb-12.jpg",
         "author": "Sophia Martinez"
     },
     {
@@ -308,7 +308,7 @@
         "title": "Classic Spaghetti Carbonara",
         "published_date": "2024-01-10",
         "cooking_time": "20 minutes",
-        "thumbnail": "thumb-2.jpg",
+        "thumbnail": "/thumb-2.jpg",
         "author": "Alessandro Rossi"
     },
     {
@@ -321,7 +321,7 @@
         "title": "Green Goddess Smoothie Bowl",
         "published_date": "2023-09-05",
         "cooking_time": "10 minutes",
-        "thumbnail": "thumb-1.jpg",
+        "thumbnail": "/thumb-1.jpg",
         "author": "Olivia Green"
     },
     {
@@ -335,6 +335,6 @@
         "published_date": "2024-06-30",
         "cooking_time": "23 minutes",
         "author": "Arita Smith",
-        "thumbnail": "thumb-3.jpg"
+        "thumbnail": "/thumbs/thumb-3.jpg"
     }
 ]
