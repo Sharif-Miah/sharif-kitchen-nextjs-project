@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header className='container mx-auto px-4 py-4 shadow-lg fixed top-0 bg-white z-50'>
       <nav className='flex justify-between items-center'>
-        <a
-          href='/index.html'
+        <CustomLink
+          path='/'
           className='text-3xl font-bold'>
           <Image
             src='/lws-kitchen.png'
@@ -16,7 +16,7 @@ const Header = () => {
             width={100}
             height={10}
           />
-        </a>
+        </CustomLink>
         <ul className='hidden md:flex space-x-6'>
           <li>
             <CustomLink

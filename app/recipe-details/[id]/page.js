@@ -5,7 +5,6 @@ import Image from 'next/image';
 
 const RecipeDetailsPage = () => {
   const { id } = useParams();
-  //   console.log(id);
 
   const product = categoriesData.find((prod) => prod.category_id === id);
 
