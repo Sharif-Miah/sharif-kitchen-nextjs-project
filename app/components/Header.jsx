@@ -10,11 +10,11 @@ const Header = () => {
           path='/'
           className='text-3xl font-bold'>
           <Image
-            src='/lws-kitchen.png'
-            className='h-10'
+            src='/kitchen.jpg'
+            className='h-10 rounded-full'
             alt='kitchen'
-            width={100}
-            height={10}
+            width={70}
+            height={50}
           />
         </CustomLink>
         <ul className='hidden md:flex space-x-6'>

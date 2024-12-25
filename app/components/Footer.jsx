@@ -11,9 +11,9 @@ const Footer = () => {
               href='/index.html'
               class='text-3xl font-bold'>
               <Image
-                src='/lws-kitchen.png'
-                class='h-10'
-                alt='lws kitchen'
+                src='/kitchen.jpg'
+                className='h-10 rounded-lg'
+                alt='kitchen'
                 width={100}
                 height={100}
               />
