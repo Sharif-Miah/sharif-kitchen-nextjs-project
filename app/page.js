@@ -4,6 +4,7 @@ import SuperDelicious from './components/SuperDelicious/SuperDelicious';
 import PopularCategories from './components/Popular-Categories/PopularCategories';
 import Deliciousness from './components/Deliciousness';
 import HandPicked from './components/Hand-Picked/HandPicked';
+import LetestRecipi from './components/LetestRecipi/LetestRecipi';
 
 export const metadata = {
   title: 'Sharif Kitchen || Home',
@@ -18,6 +19,7 @@ export default function Home() {
       <PopularCategories />
       <Deliciousness />
       <HandPicked />
+      <LetestRecipi />
     </main>
   );
 }

@@ -7,17 +7,15 @@ const SingleData = ({ category }) => {
   const router = useRouter();
   const { title, cooking_time, thumbnail, average_rating } = category;
 
-  //   console.log(thumbnail);
   const handleClick = (category) => {
     router.push(`/recipe-details/${category.category_id}`);
-    // console.log(category);
   };
 
   return (
     <button onClick={() => handleClick(category)}>
       <div>
         <Image
-          src={thumbnail}
+          src={`/thumbs/${thumbnail}`}
           alt='Chicken Meatball with Creamy Cheese'
           className='w-full h-[300px] object-cover rounded-lg mb-4'
           width={100}

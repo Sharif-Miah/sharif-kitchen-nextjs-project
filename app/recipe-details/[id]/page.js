@@ -8,8 +8,14 @@ const RecipeDetailsPage = () => {
 
   const product = categoriesData.find((prod) => prod.category_id === id);
 
-  const { title, thumnail, author, cooking_time, published_date, description } =
-    product;
+  const {
+    title,
+    thumbnail,
+    author,
+    cooking_time,
+    published_date,
+    description,
+  } = product;
 
   return (
     <main class='container mx-auto px-4 py-8'>
@@ -17,7 +23,7 @@ const RecipeDetailsPage = () => {
         <h1 class='text-4xl md:text-5xl font-bold mb-6'>{title}</h1>
         <div class='flex items-center space-x-4 mb-6'>
           <Image
-            src={thumnail}
+            src={`/thumbs/${thumbnail}`}
             alt='Author'
             class='w-8 h-8 rounded-full'
             height={100}
@@ -54,10 +60,10 @@ const RecipeDetailsPage = () => {
           </div>
         </div>
         <Image
-          src={thumnail}
+          src={`/thumbs/${thumbnail}`}
           alt='Cooking Image'
-          class='w-full h-auto mb-8 rounded-lg'
-          height={100}
+          class='w-full  mb-8 rounded-lg'
+          height={10}
           width={100}
         />
         <p class='text-gray-600 mb-8'>
@@ -89,10 +95,10 @@ const RecipeDetailsPage = () => {
         <p class='mb-8'>{description}</p>
 
         <Image
-          src={thumnail}
+          src={`/thumbs/${thumbnail}`}
           alt='Cooking in kitchen'
-          class='w-full h-auto mb-8 rounded-lg max-w-xl mx-auto'
-          height={100}
+          class='w-full  mb-8 rounded-lg max-w-xl mx-auto'
+          height={60}
           width={100}
         />
 
@@ -111,7 +117,7 @@ const RecipeDetailsPage = () => {
         <div class='grid grid-cols-2 md:grid-cols-4 gap-6'>
           <div>
             <Image
-              src={thumnail}
+              src={`/thumbs/${thumbnail}`}
               alt='Recipe 1'
               class='w-full h-60 object-cover rounded-lg mb-2'
               height={100}
@@ -121,7 +127,7 @@ const RecipeDetailsPage = () => {
           </div>
           <div>
             <Image
-              src={thumnail}
+              src={`/thumbs/${thumbnail}`}
               alt='Recipe 2'
               class='w-full h-60 object-cover rounded-lg mb-2'
               height={100}
@@ -131,7 +137,7 @@ const RecipeDetailsPage = () => {
           </div>
           <div>
             <Image
-              src={thumnail}
+              src={`/thumbs/${thumbnail}`}
               alt='Recipe 3'
               class='w-full h-60 object-cover rounded-lg mb-2'
               height={100}
@@ -141,7 +147,7 @@ const RecipeDetailsPage = () => {
           </div>
           <div>
             <Image
-              src={thumnail}
+              src={`/thumbs/${thumbnail}`}
               alt='Recipe 4'
               class='w-full h-60 object-cover rounded-lg mb-2'
               height={100}
