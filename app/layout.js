@@ -2,6 +2,8 @@ import localFont from 'next/font/local';
 import './globals.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { Suspense } from 'react';
+import Loading from './components/Loading';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
@@ -26,7 +28,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className='max-w-7xl mx-auto'>
           <Header />
-          <div className='mb-10 mt-20'>{children}</div>
+          <Suspense fallback={<Loading />}>
+            <div className='mb-10 mt-20'>{children}</div>
+          </Suspense>
           <Footer />
         </div>
       </body>
