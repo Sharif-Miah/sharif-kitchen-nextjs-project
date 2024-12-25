@@ -8,7 +8,7 @@ const SingleData = ({ category }) => {
   const { title, cooking_time, thumbnail, average_rating } = category;
 
   const handleClick = (category) => {
-    router.push(`/recipe-details/${category.category_id}`);
+    router.push(`/category/recipe/${category.category_id}`);
   };
 
   return (

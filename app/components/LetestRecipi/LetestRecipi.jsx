@@ -15,7 +15,7 @@ const LetestRecipi = () => {
   );
 
   const handleClick = (recipe) => {
-    router.push(`/recipe-details/${recipe.category_id}`);
+    router.push(`/category/recipe/${recipe.category_id}`);
   };
 
   return (
