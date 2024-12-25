@@ -2,11 +2,13 @@
 import { useParams } from 'next/navigation';
 import categoriesData from '@/data/recipes.json';
 import Image from 'next/image';
+import { useState } from 'react';
 
 const RecipeDetailsPage = () => {
   const { id } = useParams();
+  const [dataProduct, setDataProduct] = useState(categoriesData);
 
-  const product = categoriesData.find((prod) => prod.category_id === id);
+  const product = dataProduct.find((prod) => prod.category_id === id);
 
   const {
     title,
@@ -115,46 +117,18 @@ const RecipeDetailsPage = () => {
       <section class='my-12'>
         <h2 class='text-3xl font-bold mb-8'>You might also like</h2>
         <div class='grid grid-cols-2 md:grid-cols-4 gap-6'>
-          <div>
-            <Image
-              src={`/thumbs/${thumbnail}`}
-              alt='Recipe 1'
-              class='w-full h-60 object-cover rounded-lg mb-2'
-              height={100}
-              width={100}
-            />
-            <h3 class='font-semibold'>Strawberries and Cream Cake</h3>
-          </div>
-          <div>
-            <Image
-              src={`/thumbs/${thumbnail}`}
-              alt='Recipe 2'
-              class='w-full h-60 object-cover rounded-lg mb-2'
-              height={100}
-              width={100}
-            />
-            <h3 class='font-semibold'>No-Bake Cheesecake</h3>
-          </div>
-          <div>
-            <Image
-              src={`/thumbs/${thumbnail}`}
-              alt='Recipe 3'
-              class='w-full h-60 object-cover rounded-lg mb-2'
-              height={100}
-              width={100}
-            />
-            <h3 class='font-semibold'>Peanut Butter Banana Cake</h3>
-          </div>
-          <div>
-            <Image
-              src={`/thumbs/${thumbnail}`}
-              alt='Recipe 4'
-              class='w-full h-60 object-cover rounded-lg mb-2'
-              height={100}
-              width={100}
-            />
-            <h3 class='font-semibold'>Banana Bread Cake</h3>
-          </div>
+          {dataProduct.slice(0, 4).map((prode) => (
+            <div key={prode.category_id}>
+              <Image
+                src={`/thumbs/${prode.thumbnail}`}
+                alt='Recipe 1'
+                class='w-full h-60 object-cover rounded-lg mb-2'
+                height={100}
+                width={100}
+              />
+              <h3 class='font-semibold'>{prode.title}</h3>
+            </div>
+          ))}
         </div>
       </section>
     </main>
