@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         <div className='max-w-7xl mx-auto'>
           <Header />
           <Suspense fallback={<Loading />}>
-            <div className='mb-10 mt-20'>{children}</div>
+            <div className='lg:mb-10 lg:mt-20'>{children}</div>
           </Suspense>
           <Footer />
         </div>
